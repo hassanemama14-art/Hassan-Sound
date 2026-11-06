@@ -51,8 +51,8 @@ android {
     }
 
     composeOptions {
-        kotlinCompilerExtensionVersion = "1.5.15"
-    }
+        kotlinCompilerExtensionVersion = "2.0.21"
+}
 
     packaging {
         resources {
