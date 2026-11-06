@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">حسن ساوند</string>
+    <string name="tagline">قارئ الكتب الصوتية وملفات PDF</string>
+    <string name="nav_home">الرئيسية</string>
+    <string name="nav_library">المكتبة</string>
+    <string name="nav_player">المشغل</string>
+    <string name="nav_settings">الإعدادات</string>
+    <string name="import_book">استيراد مستند</string>
+    <string name="continue_reading">متابعة الاستماع</string>
+    <string name="my_library">مكتبتي</string>
+    <string name="recently_added">أضيف مؤخراً</string>
+    <string name="stats_minutes">دقيقة استماع</string>
+    <string name="stats_books">كتب مكتملة</string>
+    <string name="stats_streak">أيام متتالية</string>
+    <string name="play">تشغيل</string>
+    <string name="pause">إيقاف مؤقت</string>
+    <string name="speed">السرعة</string>
+    <string name="pitch">طبقة الصوت</string>
+    <string name="voice">الصوت</string>
+    <string name="sleep_timer">مؤقت النوم</string>
+    <string name="scanned_pdf_warning">هذا الملف مصور ولا يحتوي على نصوص مدمجة. يلزم التعرف الضوئي OCR.</string>
+    <string name="notification_reading">يقرأ الآن: %1$s</string>
+</resources>

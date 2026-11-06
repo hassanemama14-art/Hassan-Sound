@@ -1,0 +1,40 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  :root {
+    --brand-navy: #101321;
+    --brand-surface: #181c2e;
+    --brand-surface-card: #20263c;
+    --brand-purple: #7657F6;
+    --brand-purple-light: #9b82ff;
+    --brand-purple-glow: rgba(118, 87, 246, 0.25);
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', 'Readex Pro', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background-color: #101321;
+    color: #F1F5F9;
+    overflow-x: hidden;
+  }
+
+  [dir="rtl"] {
+    font-family: 'Readex Pro', 'Plus Jakarta Sans', sans-serif;
+  }
+}
+
+/* Custom smooth scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(118, 87, 246, 0.25);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(118, 87, 246, 0.5);
+}

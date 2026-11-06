@@ -1,0 +1,6 @@
+{
+  "name": "Hassan Sound - Audiobook & PDF Reader",
+  "description": "Professional Android Audiobook and PDF Reader with natural Arabic and English text-to-speech, background playback, and complete Jetpack Compose architecture.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
